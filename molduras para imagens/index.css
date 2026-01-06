@@ -1,0 +1,9 @@
+img{
+    border:5px solid black;
+    width: 300px;
+    box-shadow: 2px 2px 3px 1px black;
+    margin:10px;
+}
+body{
+    background-color: rgb(241, 135, 60);
+}

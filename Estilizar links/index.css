@@ -1,0 +1,21 @@
+body{
+    background-color: seagreen;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width:500px;
+    gap: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+
+a{
+    color: rgb(0, 12, 180);
+    }
+a:hover{
+    color: rgb(0, 6, 88);
+    font-size: larger;
+}
