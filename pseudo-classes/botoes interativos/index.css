@@ -1,0 +1,103 @@
+
+
+    body{
+        background-color: lightblue;
+    }
+
+#um:hover{
+    background-color: lightcoral;
+    padding: 11px;
+        transition: all 0.2s;
+
+}
+#um:active{
+    
+        padding: 10px;
+        transform:  scale(1.95);
+        transition: all 0.5s;
+
+}
+#um:focus{
+    background-color: lightgreen;
+        padding: 11px;
+}
+
+
+
+
+
+#dois:hover{
+    background-color: lightcoral;
+    padding: 11px;
+        transition: all 0.2s;
+
+}
+
+#dois:active{
+  padding: 10px;
+        transform:  scale(1.95);
+        transition: all 0.5s;
+
+}
+
+#dois:focus{
+  background-color: lightgreen;
+        padding: 11px;
+}
+
+
+
+
+#tres:hover{
+ background-color: lightcoral;
+    padding: 11px;
+    transition: all 0.2s;
+}
+#tres:focus{
+ background-color: lightgreen;
+        padding: 11px;
+}
+
+#tres:active{
+ padding: 10px;
+        transform:  scale(1.95);
+        transition: all 0.5s;
+}
+
+
+
+
+
+
+#quarto:hover{
+ background-color: lightcoral;
+    padding: 11px;
+        transition: all 0.2s;
+}
+#quarto:focus{
+ background-color: lightgreen;
+        padding: 11px;
+}
+
+
+
+#quarto:active{
+ padding: 10px;
+        transform:  scale(1.95);
+        transition: all 0.5s;
+}
+
+main{
+     display: flex;
+    flex-direction: row;
+   gap: 10px;
+
+}
+button{
+   
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 10px;
+   
+}

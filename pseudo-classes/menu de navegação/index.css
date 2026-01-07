@@ -1,0 +1,30 @@
+#invi{
+    display: none;
+   
+}
+button{
+    background-color: rgb(194, 240, 224);
+    width: 100px;
+}
+.bebidas:hover + #invi{
+    transition: all 0.5s;
+    display: block;
+      width: 100px;
+  
+
+   
+}
+.bebidas:hover{
+   width: 100px;
+   text-align: center;
+}
+.bebidas:focus + #invi{
+    display: block;
+
+
+   
+}
+.bebidas:active{
+    padding: 2px ;
+    transition: all 0.3s;
+}
