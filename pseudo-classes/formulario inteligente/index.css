@@ -1,0 +1,76 @@
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: aliceblue;
+  border-radius: 2px;
+  padding: 1rem;
+  max-width: 50%;
+  border-radius: 8px;
+}
+
+label {
+  background-color: rgb(211, 158, 123);
+  max-width: 20%;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 8px;
+}
+body {
+  background-color: wheat;
+}
+input {
+  max-width: 50%;
+  border: 2px solid black;
+}
+#idade:valid {
+  border: 3px solid rgb(111, 255, 111);
+}
+#idade:invalid {
+  border: 2px solid rgb(236, 33, 33);
+}
+#idade:focus {
+  border: 2px solid rgb(0, 0, 0);
+}
+#idade:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+#name:valid {
+  border: 3px solid rgb(111, 255, 111);
+}
+#name:invalid {
+  border: 2px solid rgb(236, 33, 33);
+}
+#name:focus {
+  border: 2px solid rgb(0, 0, 0);
+}
+#name:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+#email:hover {
+  border: 3px solid rgb(0, 0, 0);
+}
+#email:valid {
+  border: 3px solid rgb(111, 255, 111);
+}
+#email:invalid {
+  border: 2px solid rgb(236, 33, 33);
+}
+#email:focus {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+#submit {
+  background-color: yellowgreen;
+  border-radius: 9px;
+  padding: 3px;
+}
+#submit:focus {
+  transform: scale(0.9);
+}
+#submit:hover {
+  background-color: rgb(114, 153, 36);
+}

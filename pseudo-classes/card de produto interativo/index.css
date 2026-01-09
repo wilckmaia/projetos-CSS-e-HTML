@@ -1,0 +1,50 @@
+img {
+  max-width: 100%;
+}
+main {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 1rem;
+}
+body {
+  background-color: rgb(235, 200, 125);
+}
+#um {
+  background-color: yellow;
+  padding: 1rem;
+}
+#dois {
+  background-color: red;
+  padding: 1rem;
+}
+#tres {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+}
+
+#um:hover {
+  border: 2px solid black;
+}
+#dois:hover {
+  border: 2px solid black;
+}
+
+#tres:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+main:has(#um:active) #dois,
+main:has(#um:active) #tres {
+  display: none;
+}
+
+main:has(#dois:active) #um,
+main:has(#dois:active) #tres {
+  display: none;
+}
+
+main:has(#tres:active) #um,
+main:has(#tres:active) #dois {
+  display: none;
+}

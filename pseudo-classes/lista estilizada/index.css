@@ -1,0 +1,12 @@
+li:first-child {
+  border: 2px solid gold;
+  max-width: 10%;
+}
+li:last-child {
+  border: 2px solid red;
+  max-width: 10%;
+}
+ol li:nth-child(even) {
+  background-color: lightblue;
+  max-width: 10%;
+}
