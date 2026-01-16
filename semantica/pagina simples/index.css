@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(20, 20, 20);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.g {
+  color: blue;
+}
+.o {
+  color: red;
+}
+.l {
+  color: green;
+}
+.o2 {
+  color: yellow;
+}
+
+img {
+  border-radius: 49%;
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.div {
+  display: flex;
+  gap: 50px;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(28, 27, 77);
+  padding: 10px;
+  border-radius: 12px;
+  margin: 50px 0px 0px 0px;
+  gap: 5px;
+}
+
+.conteudo {
+  margin: 50px 0px 0px 0px;
+}
+
+footer {
+  margin: 100px 0px 0px 0px;
+}
+.menu h2 {
+  cursor: pointer;
+  position: sticky;
+  height: 50px;
+}
+.menu h2:hover {
+  background-color: rgb(7, 8, 59);
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
+  transition: all 0.5s ease;
+}
+.menu h2:hover + .um {
+  display: block;
+  transition: all 0.5s ease;
+
+  border-radius: 5px;
+}
+.menu h2:hover + .dois {
+  display: block;
+  transition: all 0.5s ease;
+}
+.menu h2:hover + .tres {
+  display: block;
+  transition: all 0.5s ease;
+}
+.menu h2:hover + .quatro {
+  display: block;
+  transition: all 0.5s ease;
+}
+
+* {
+  color: cornsilk;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu h2 + .um,
+.menu h2 + .dois,
+.menu h2 + .tres,
+.menu h2 + .quatro {
+  display: none;
+}
+.menu h2 + p {
+  width: 300px;
+}
